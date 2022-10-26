@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    width: 95%;
+}
+a{
+    text-decoration: none;
+    margin-left: 25px;
+}
+#header{
+    position: fixed;
+    padding: 20px 0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 100%;
+}
+.nav-right{
+width: 70%;
+align-content: center;
+}
+.nav-right a{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-family: Poppins;
+}
+.booking{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #ba71da;
+    padding-top: 12px !important;
+    padding-bottom: 10px !important;
+    border-radius: 30px;
+    margin-left: 25px;
+}
+.main{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    text-align: center;
+}
+h2{
+    padding-top: 200px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+h6{
+    margin-top: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+.all-icons{
+    margin: 160px 0 20% 20%;
+   display: flex;
+   height: 400px;
+   width: 60%;
+   cursor: pointer;
+}
+select{
+    width: 400px;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 60px;
+}
+.box{
+    margin-right: 20px;
+    width: 100%;
+    font-size: 30px;
+}
+.second{
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+.second h3{
+    margin-top: 10px;
+}
+.pics{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.pics .box{
+
+}
+
+
+
