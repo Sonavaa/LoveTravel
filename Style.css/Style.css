@@ -70,39 +70,67 @@ h6{
     letter-spacing: 4px;
     font-weight: normal;
 }
-.all-icons{
-    margin: 160px 0 20% 20%;
-   display: flex;
-   height: 400px;
-   width: 60%;
-   cursor: pointer;
-}
 select{
     width: 400px;
     height: 40px;
     margin-top: 60px;
     border-radius: 60px;
 }
-.box{
-    margin-right: 20px;
+.all-icons{
+   padding-bottom: 40px ;
+   display: flex;
+   justify-content:center;
+   height: 350px;
+   width: 40%;
+   cursor: pointer;
+   align-items: center;
+   margin:auto;
+}
+.all-icons .box{
+    
     width: 100%;
     font-size: 30px;
+    border: 2px solid gray;
+    margin: 0 15px;
+    padding: 30px 30px;
 }
 .second{
     text-align: center;
-    height: 200px;
+    height: 1050px;
     width: 100%;
+    color: #555555
 }
 .second h3{
-    margin-top: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.second h1{
+    font-size: 40px;
 }
 .pics{
+    margin: 40px 70px;
     display: flex;
-    /* justify-content: space-between; */
+    width: 100%;
+    flex-wrap: wrap;
     
 }
 .pics .box{
-
+width: 30%;
+}
+.pics .box img{
+    width: 100%;
+    padding: 10px 12px;
+}
+.third{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+}
+.third h6{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    
 }
 
 
