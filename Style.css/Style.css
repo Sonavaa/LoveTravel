@@ -128,13 +128,14 @@ width: 30%;
 #third{
     background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
    background-position: center; 
+   
 }
 .third{
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 40px 0;
 }
 .third h6{
     width: 100%;
