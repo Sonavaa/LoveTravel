@@ -52,7 +52,7 @@ align-content: center;
     background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
     text-align: center;
 }
-h2{
+.main h2{
     padding-top: 200px;
     color: #ffffff;
     text-align: center;
@@ -61,14 +61,16 @@ h2{
     letter-spacing: 0px;
     font-weight: bold;
 }
-h6{
-    margin-top: 30px;
+.main h6{
     color: #ffffff;
     text-align: center;
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 4px;
     font-weight: normal;
+}
+.bar{
+    font-size: 30px;
 }
 select{
     width: 400px;
@@ -123,15 +125,105 @@ width: 30%;
     width: 100%;
     padding: 10px 12px;
 }
-.third{
+#third{
     background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+   background-position: center; 
+}
+.third{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .third h6{
-    font-size: 50px;
-    line-height: 50px;
+    width: 100%;
+    font-size: 40px;
+    margin-left: 60%;
+    line-height: 80px;
     font-weight: bold;
+    text-align: left;
     
 }
-
-
-
+.third a{
+    border-radius: 38px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-size: 14px;
+    background-color: #ffffff;
+    padding: 15px 35px;
+    color: #f76570;
+}
+#footer{
+    background-color: lightgray;
+    height: 198px;
+}
+#footer .Box1{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 21rem;
+    align-items: center;
+}
+.footer{
+    color: #a3a3a3;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+.footer h3{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.footer h2{
+    color: black;
+    font-size: 40px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+}
+.footer input{
+    background-color: #f9f9f9;
+    border-width: 1px;
+    border-color: #f1f1f1;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px 40px;
+    color: #a3a3a3;
+    margin-right: 10px;
+    height: 44px;
+    width: 270px;
+}
+.footer button{
+    background-color: #14b9d5;
+    border-width: 0px;
+    border-color: #fff;
+    border-radius: 30px;
+    border-style: solid;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 43px;
+    width: 100px;
+}
+.Box2{
+    background-color:#14b9d5; 
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+.Box2 h6{
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
