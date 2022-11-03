@@ -98,7 +98,6 @@ select{
 }
 .second{
     text-align: center;
-    height: 1050px;
     width: 100%;
     color: #555555
 }
@@ -112,19 +111,42 @@ select{
     font-size: 40px;
 }
 .pics{
+    cursor: pointer;
     margin: 40px 70px;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     
 }
+
 .pics .box{
-width: 30%;
+    width: 30%;
+    position: relative;
+    margin: 10px;
+    z-index: -1;
+    }
+    .box h3{
+        margin: 0;
+        bottom: 0;
+       z-index: 1;
+    }
+.box:hover .overlay{
+opacity: 1;
 }
 .pics .box img{
     width: 100%;
-    padding: 10px 12px;
+    vertical-align: bottom;
+    
 }
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background-color: #14b9d5;;
+    opacity: 0;
+  }
+
 #third{
     background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
    background-position: center; 
